@@ -1,0 +1,21 @@
+ 
+{% load static %}
+ {% if dosya_listesi %}
+ <h2>Dosyalar</h2>
+    <ul>
+   
+        <li><a href="{% static 'documents/levhadeneme.psd' %}" download>Dosya1</a></li>
+        <li><a href="{% static 'documents/CHEM101-SYLLABUS-2019-2020_fall_1.pdf' %}" download>Dosya2</a></li>
+        <li><a href="{% static 'documents/1937785459Programming_1.pdf' %}" download>Dosya3</a></li>
+        
+  
+    </ul>
+{% else %}
+    <p>No polls are available.</p>
+{% endif %} 
+
+
+<!-- <a href="{{dosya.document}}" download>{{ dosya.document }}</a> -->
+
+
+

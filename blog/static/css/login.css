@@ -1,0 +1,21 @@
+
+
+.login { 
+	height:150px;
+	width:250px;
+	margin:auto;
+	border:5p black solid;
+	padding:10px;
+}
+
+.login input { 
+	padding:5px;
+	margin:5px
+ }
+
+ img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
